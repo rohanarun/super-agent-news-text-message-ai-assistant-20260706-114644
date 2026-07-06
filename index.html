@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Text message AI assistant | Super</title>
+  <meta name="description" content="Use Super as a text message AI assistant to turn simple texts into real computer actions, reminders, and reusable workflows." />
+  <link rel="canonical" href="https://app.getsupers.com/use-cases/text-message-ai-assistant/" />
+  <meta property="og:url" content="https://app.getsupers.com/use-cases/text-message-ai-assistant/" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="ambient-grid"></div>
+<div class="paper-noise"></div>
+<div class="page">
+  <nav class="nav">
+    <div class="brand"><img src="https://storage.googleapis.com/cheatlayer/landing/icon-transparent-512.png" alt="Super logo" /></div>
+    <div class="nav-links">
+      <a href="/use-cases/">Use cases</a>
+      <a href="/pricing/">Pricing</a>
+      <a href="/docs/">Docs</a>
+    </div>
+    <a class="btn btn-black nav-cta" href="https://app.getsupers.com/general?login=1&open_login=1">Try Super</a>
+  </nav>
+
+  <section class="hero">
+    <div class="shell hero-inner">
+      <h1>Text an AI assistant — and watch real work happen</h1>
+      <p class="hero-sub">Super lets you send plain text messages that trigger real computer actions: opening apps, filling forms, checking accounts, and remembering how you work. No extra app to open, no brittle shortcuts.</p>
+      <div class="hero-actions">
+        <a class="btn btn-black" href="https://app.getsupers.com/general?login=1&open_login=1">Start texting Super</a>
+        <a class="btn btn-white" href="#guide">Read the field guide</a>
+      </div>
+      <div class="media-frame">
+        <video src="https://storage.googleapis.com/cheatlayer/landing/hero-0607-2-3.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <div class="shell bento">
+      <div class="bento-item"><h3>Why text-first matters</h3><p>Texting removes friction. You already know how to send a message, so the assistant fits into daily life instead of demanding a new habit.</p></div>
+      <div class="bento-item"><h3>Beyond chat replies</h3><p>Unlike chat-only assistants, Super can operate a real browser and desktop environment on your behalf.</p></div>
+      <div class="bento-item"><h3>Reusable memory</h3><p>Super’s computer-use cache remembers successful actions so repeated workflows get faster and cheaper over time.</p></div>
+    </div>
+  </section>
+
+  <article id="guide" class="long-form-guide shell">
+    <p class="byline">Field guide by the Super editorial team — synthesizing current agent research, security reporting, and hands-on workflow testing.</p>
+
+    <h2>Market context</h2>
+    <p>Text message AI assistants are re-emerging as serious tools rather than novelties. Voice-first systems like Siri have become more capable, and general assistants such as ChatGPT, Gemini, and Grok now market “agentic” features. At the same time, specialized tools like Folk and Orchids explore narrower automation niches. What has changed in 2026 is computer use: major vendors now let models see screens, click buttons, and complete multi-step tasks. Reporting from Search Engine Journal and Tech Times highlights both the power and the risk of this shift. As assistants gain control, design discipline and safety boundaries matter more than raw intelligence.</p>
+    <p>For people who want to text an assistant instead of opening another app, the key question is reliability. Can the assistant actually do the thing, or does it just explain how? Super positions itself differently by focusing on durable computer workflows backed by a computer-use cache. Rather than improvising every click, successful actions are reused. This is especially relevant as Gemini pushes browser-native control, ChatGPT expands agent modes, Grok emphasizes real-time context, and Siri integrates deeper into Apple’s ecosystem. Super aims to be sharper for repeated, personal workflows.</p>
+
+    <h2>How to evaluate and use this workflow</h2>
+
+    <h3>How to start with a real text request</h3>
+    <p>Begin with a concrete, everyday text you would normally send to yourself or a human assistant. For example: “Check my calendar and reschedule tomorrow’s 9am if it overlaps with travel.” This matters because Super interprets intent and then decides whether computer use is required. Text-first works best when you describe the outcome, not the clicks. Super may ask a brief clarification before acting.</p>
+
+    <h3>How to confirm computer actions safely</h3>
+    <p>When a request requires logging into a site or changing data, Super pauses for confirmation. You’ll see a summary of what will happen — which app, which account, and what data is touched. This step is critical given real-world reports of notification-based hijacks in other assistants. Treat confirmation as a normal part of texting an AI assistant that does real work.</p>
+
+    <h3>How to let Super learn repeated tasks</h3>
+    <p>If you send similar texts over time — weekly reports, ride bookings, or status checks — Super stores the successful sequence in its computer-use cache. This does not expose credentials back to you, but it allows the agent to replay reliable actions instead of rethinking each step. Over time, this makes routine text requests feel instant.</p>
+
+    <h3>How to mix texting with follow-ups</h3>
+    <p>Texting an AI assistant is rarely one-and-done. Super supports follow-up texts like “do that again next Friday” or “same as last time but cheaper.” Because prior context is preserved, you don’t need to restate everything. This is where text-first beats opening a fresh app session.</p>
+
+    <h3>How to decide when not to automate</h3>
+    <p>Not every task should be delegated. Sensitive financial changes, ambiguous emails, or actions with legal consequences should stay in review mode. Super is designed to ask before crossing these boundaries, but as a user you should intentionally keep some steps manual.</p>
+
+    <h2>Implementation checklist</h2>
+    <ul>
+      <li>Define your top three recurring text requests clearly, focusing on outcomes rather than UI steps, so the assistant can generalize and reuse workflows correctly.</li>
+      <li>Enable confirmations for any task involving accounts, payments, or personal data to reduce the risk of unintended actions or prompt injection attacks.</li>
+      <li>Review completed tasks occasionally to ensure the computer-use cache reflects your current preferences and not outdated assumptions.</li>
+      <li>Use follow-up texts instead of long initial instructions; this mirrors natural conversation and improves agent reliability.</li>
+      <li>Keep sensitive one-off decisions manual even if automation is possible; restraint is part of safe agent use.</li>
+      <li>Compare results occasionally with ChatGPT, Gemini, Grok, or Siri to understand where each tool excels and where Super’s approach saves time.</li>
+    </ul>
+
+    <h2>Risks and limits</h2>
+    <p><strong>Security exposure:</strong> As highlighted in coverage of Gemini and other agents, computer control expands the attack surface. Super mitigates this with confirmations and scoped actions, but no system is immune to social engineering risks.</p>
+    <p><strong>Context drift:</strong> Cached workflows can become stale if apps change interfaces or your preferences evolve. Periodic review is necessary to keep automation accurate.</p>
+    <p><strong>Over-automation:</strong> Delegating everything can reduce situational awareness. Texting an assistant should augment judgment, not replace it entirely.</p>
+    <p><strong>Expectation mismatch:</strong> Compared to conversational tools like ChatGPT or voice-first Siri, Super may ask more clarifying questions. This is a trade-off for reliability.</p>
+
+    <h2>FAQ</h2>
+    <p><strong>Can I really use Super only by text?</strong> Yes. You can start tasks, receive updates, and send follow-ups entirely via text messages. Other interfaces exist, but they are optional.</p>
+    <p><strong>How is this different from ChatGPT or Gemini?</strong> ChatGPT and Gemini excel at conversation and research. Super is optimized for repeated computer-use workflows with a reusable computer-use cache.</p>
+    <p><strong>Is this like Siri?</strong> Siri is deeply integrated into Apple devices and voice-first. Super is text-first and focused on cross-app computer actions rather than device commands.</p>
+    <p><strong>What about Grok?</strong> Grok emphasizes real-time and social context. Super prioritizes durable personal workflows over live commentary.</p>
+    <p><strong>Where do Folk and Orchids fit?</strong> Folk and Orchids represent niche automation approaches. They provide context for the market but do not focus on text-first computer agents.</p>
+    <p><strong>Is it safe to let an AI click things?</strong> Safety depends on design and user discipline. Super includes confirmations and scope limits, but users should remain attentive.</p>
+
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.searchenginejournal.com/google-gemini-can-now-control-your-computer-hackers-are-already-targeting-ai-agents/">Search Engine Journal</a></li>
+      <li><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model/">blog.google</a></li>
+      <li><a href="https://builtin.com/artificial-intelligence">Built In</a></li>
+    </ul>
+  </article>
+
+  <section class="chapter shell">
+    <h2>Explore related use cases</h2>
+    <ul>
+      <li><a href="https://app.getsupers.com/use-cases/order-food-with-ai/">Order food with AI</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/book-rides-with-ai/">Book rides with AI</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/text-message-ai-assistant/">Text message AI assistant</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/meta-display-ai-assistant/">Meta Display AI assistant</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/ai-agent-build-websites/">AI agent to build websites</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/computer-use-cache/">Computer-use cache</a></li>
+    </ul>
+  </section>
+
+  <section class="cta-band">
+    <div class="shell">
+      <h2>Try texting Super today</h2>
+      <a class="btn btn-black" href="https://app.getsupers.com/general?login=1&open_login=1">Get started</a>
+    </div>
+  </section>
+</div>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="./app.js"></script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"Use a text message AI assistant with Super","step":[{"@type":"HowToStep","text":"Send a clear outcome-focused text message describing what you want done."},{"@type":"HowToStep","text":"Confirm any computer actions Super proposes before execution."},{"@type":"HowToStep","text":"Allow Super to complete the task using computer use."},{"@type":"HowToStep","text":"Repeat similar requests to build a reusable computer-use cache."},{"@type":"HowToStep","text":"Use follow-up texts to refine or repeat the workflow."}]} </script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I really use Super only by text?","acceptedAnswer":{"@type":"Answer","text":"Yes. Super supports full task initiation and follow-up via text messages."}}]} </script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://app.getsupers.com/"},{"@type":"ListItem","position":2,"name":"Use cases","item":"https://app.getsupers.com/use-cases/"},{"@type":"ListItem","position":3,"name":"Text message AI assistant","item":"https://app.getsupers.com/use-cases/text-message-ai-assistant/"}]} </script>
+</body>
+</html>
