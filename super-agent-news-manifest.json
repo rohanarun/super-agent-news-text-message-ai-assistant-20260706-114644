@@ -1,0 +1,86 @@
+{
+  "citations": [
+    {
+      "source": "Search Engine Journal",
+      "title": "Google Gemini can now control your computer \u2014 security implications",
+      "url": "https://www.searchenginejournal.com/google-gemini-can-now-control-your-computer-hackers-are-already-targeting-ai-agents/"
+    },
+    {
+      "source": "Apple",
+      "title": "Apple introduces a more personal Siri AI",
+      "url": "https://www.apple.com/newsroom/"
+    },
+    {
+      "source": "Built In",
+      "title": "31 popular AI assistants in 2026",
+      "url": "https://builtin.com/artificial-intelligence"
+    },
+    {
+      "source": "Blockchain Council",
+      "title": "MCP vs RAG vs Skills: AI agent architecture",
+      "url": "https://www.blockchain-council.org/"
+    },
+    {
+      "source": "Tech Times",
+      "title": "AI agent safety benchmark findings",
+      "url": "https://www.techtimes.com/"
+    },
+    {
+      "source": "blog.google",
+      "title": "Introducing Gemini computer use models",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model/"
+    }
+  ],
+  "design_plan": "Python RNG Execution: seed = hash(title+kind+audience+generated_at) -> selects workflow-command-center hero, Outfit typography, gapless-bento-grid + workflow-playbook-timeline + implementation-checklist components, GSAP paradigms = scrubbed-word-reveal & hover-physics. AIDA Check: Attention (hero), Interest (proof + market context), Desire (computer-use cache + workflows), Action (CTA band). Font Selection: Outfit from allowed list. Hero Math Verification: max-width supports 2\u20133 line H1 with clamp sizing. Bento Density Verification: grid-auto-flow: dense present. GSAP Motion Selection: guarded CDN usage. Label Sweep & Button Check: primary black pill CTA, secondary white CTA verified.",
+  "generated_at": "2026-07-06T11:46:51.454434+00:00",
+  "headline": "Text message AI assistant that actually gets things done",
+  "site_brief": {
+    "audience": "people who want to text an AI assistant instead of opening another app",
+    "canonical_url": "https://app.getsupers.com/use-cases/text-message-ai-assistant/",
+    "cluster_links": [
+      {
+        "slug": "order-food-with-ai",
+        "title": "Order food with AI",
+        "url": "https://app.getsupers.com/use-cases/order-food-with-ai/"
+      },
+      {
+        "slug": "book-rides-with-ai",
+        "title": "Book rides with AI",
+        "url": "https://app.getsupers.com/use-cases/book-rides-with-ai/"
+      },
+      {
+        "slug": "text-message-ai-assistant",
+        "title": "Text message AI assistant",
+        "url": "https://app.getsupers.com/use-cases/text-message-ai-assistant/"
+      },
+      {
+        "slug": "meta-display-ai-assistant",
+        "title": "Meta Display AI assistant",
+        "url": "https://app.getsupers.com/use-cases/meta-display-ai-assistant/"
+      },
+      {
+        "slug": "ai-agent-build-websites",
+        "title": "AI agent to build websites",
+        "url": "https://app.getsupers.com/use-cases/ai-agent-build-websites/"
+      },
+      {
+        "slug": "computer-use-cache",
+        "title": "Computer-use cache",
+        "url": "https://app.getsupers.com/use-cases/computer-use-cache/"
+      }
+    ],
+    "goal": "Create an indexable SEO use-case page in the /use-cases/ cluster. Target the practical query 'Text message AI assistant', show the exact job-to-be-done, and explain how Super can perform the workflow with real computer use and a reusable computer-use cache. Include sibling use-case links so the cluster feels intentional, crawlable, and useful. Add a long-form operator playbook with how-to steps, setup checklist, realistic limits, confirmation moments, and examples that a reader can act on immediately.",
+    "kind": "use_case",
+    "queries": [
+      "text message AI assistant",
+      "SMS AI assistant",
+      "personal AI assistant by text",
+      "AI agent texting workflow automation"
+    ],
+    "route_prefix": "use-cases",
+    "slug": "text-message-ai-assistant",
+    "title": "Text message AI assistant",
+    "use_case_intent": "show how Super turns SMS-style requests into real computer actions, follow-ups, reminders, and app workflows"
+  },
+  "summary": "A practical field guide to using Super as a text message AI assistant that can turn SMS-style requests into real computer actions, follow-ups, and reusable workflows \u2014 without opening another app."
+}
